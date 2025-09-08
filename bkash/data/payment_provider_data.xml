@@ -1,0 +1,18 @@
+<odoo>
+    <record id="payment_provider_bkash" model="payment.provider">
+        <field name="name">bKash</field>
+        <field name="code">bkash</field>
+        <field name="company_id" ref="base.main_company"/>
+        <field name="state">enabled</field>
+        <field name="is_published">True</field>
+
+    </record>
+    <record id="payment_method_bkash" model="payment.method">
+        <field name="name">bKash</field>
+        <field name="code">bkash</field>
+        <field name="active">True</field>
+        
+        
+    </record>
+     
+</odoo>
